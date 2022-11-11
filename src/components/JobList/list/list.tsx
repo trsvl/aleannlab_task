@@ -29,7 +29,7 @@ const List: FC<ListProps> = ({
     <>
       {windowWidth >= 639 ? (
         <div className={styles.wrapper}>
-          <Link className='cursor-pointer flex' to={`${process.env.PUBLIC_URL}/job-${id}`}>
+          <Link className='cursor-pointer flex' to={process.env.PUBLIC_URL + `/job-${id}`}>
             <div className='flex'>
               <img src={pictures[0]} className={styles.logo} alt='logo'></img>
               <div>
@@ -58,7 +58,7 @@ const List: FC<ListProps> = ({
                   {CalculateDate(updatedAt)}
                 </h3>
               </div>
-              <Link className='cursor-pointer flex' to={`${process.env.PUBLIC_URL}/job-${id}`}>
+              <Link className='cursor-pointer flex' to={process.env.PUBLIC_URL + `/job-${id}`}>
                 <img src={pictures[0]} className={styles.logo} alt='logo' />
                 <div>
                   <h2 className={styles.title}>{title}</h2>

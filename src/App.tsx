@@ -44,12 +44,12 @@ function App() {
     {loading ? (
       
  <Routes>
- <Route path="*" element={<Navigate to={`${process.env.PUBLIC_URL}/jobs`}/>} />
- <Route path={`${process.env.PUBLIC_URL}/`} element={<Navigate to={`${process.env.PUBLIC_URL}/jobs`} />} />
+ <Route path="*" element={<Navigate to={process.env.PUBLIC_URL + '/jobs'}/>} />
+ <Route path={process.env.PUBLIC_URL + '/'} element={<Navigate to={process.env.PUBLIC_URL + '/jobs'} />} />
  <Route path={`${process.env.PUBLIC_URL}/jobs`} element={<JobList items={items} windowWidth={windowSize}/>}/>
  {items.map((item) => {
    return (
-     <Route key={item.id} path={`${process.env.PUBLIC_URL}/jobs/job-${item.id}`} element={
+     <Route key={item.id} path={process.env.PUBLIC_URL + `/jobs/job-${item.id}`} element={
        <JobDetail
          address={item.address}
          benefits={item.benefits}
