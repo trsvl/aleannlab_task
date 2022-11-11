@@ -11,7 +11,7 @@
     lg:mt-0 lg:mx-0 lg:mr-0;
 }
 .contacts_description {
-  @apply h-auto rounded-t-lg bg-[#2A3047] relative 
+  @apply min-h-[218px] rounded-t-lg bg-[#2A3047] relative 
     overflow-hidden flex items-center justify-center
     lg:h-[218px];
 }
