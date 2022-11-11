@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jobs/static/css/main.72207587.css",
-    "main.js": "/jobs/static/js/main.d0388932.js",
-    "static/media/right-arrow.svg": "/jobs/static/media/right-arrow.c69dedf11549dba56943e3e043d213b0.svg",
-    "static/media/bookmark-star.svg": "/jobs/static/media/bookmark-star.69b0459318eb56d238a058eda75711e7.svg",
-    "static/media/left-arrow.svg": "/jobs/static/media/left-arrow.f2ae26a788dfde421a7015b956fe9cfb.svg",
-    "static/media/star.svg": "/jobs/static/media/star.fd744a3afc1eb8207c05bb1e8e92b541.svg",
-    "static/media/share.svg": "/jobs/static/media/share.7381a5999554764f3ce8249d49192539.svg",
-    "index.html": "/jobs/index.html",
-    "static/media/left-arrow-button.svg": "/jobs/static/media/left-arrow-button.e3f3af7964e1cabfb20bfd4d9d96ee9d.svg",
-    "static/media/bookmark.svg": "/jobs/static/media/bookmark.6e05df0e6608ca6a81f2ef55fd6aafcc.svg",
-    "static/media/location.svg": "/jobs/static/media/location.1c093ca173a538132f1ce31ab6296061.svg",
-    "static/media/circle.svg": "/jobs/static/media/circle.9c9206dd3c1c0d802c1f617ff249c37c.svg",
-    "main.72207587.css.map": "/jobs/static/css/main.72207587.css.map",
-    "main.d0388932.js.map": "/jobs/static/js/main.d0388932.js.map"
+    "main.css": "/aleannlab_task/static/css/main.72207587.css",
+    "main.js": "/aleannlab_task/static/js/main.973d75ad.js",
+    "static/media/right-arrow.svg": "/aleannlab_task/static/media/right-arrow.c69dedf11549dba56943e3e043d213b0.svg",
+    "static/media/bookmark-star.svg": "/aleannlab_task/static/media/bookmark-star.69b0459318eb56d238a058eda75711e7.svg",
+    "static/media/left-arrow.svg": "/aleannlab_task/static/media/left-arrow.f2ae26a788dfde421a7015b956fe9cfb.svg",
+    "static/media/star.svg": "/aleannlab_task/static/media/star.fd744a3afc1eb8207c05bb1e8e92b541.svg",
+    "static/media/share.svg": "/aleannlab_task/static/media/share.7381a5999554764f3ce8249d49192539.svg",
+    "index.html": "/aleannlab_task/index.html",
+    "static/media/left-arrow-button.svg": "/aleannlab_task/static/media/left-arrow-button.e3f3af7964e1cabfb20bfd4d9d96ee9d.svg",
+    "static/media/bookmark.svg": "/aleannlab_task/static/media/bookmark.6e05df0e6608ca6a81f2ef55fd6aafcc.svg",
+    "static/media/location.svg": "/aleannlab_task/static/media/location.1c093ca173a538132f1ce31ab6296061.svg",
+    "static/media/circle.svg": "/aleannlab_task/static/media/circle.9c9206dd3c1c0d802c1f617ff249c37c.svg",
+    "main.72207587.css.map": "/aleannlab_task/static/css/main.72207587.css.map",
+    "main.973d75ad.js.map": "/aleannlab_task/static/js/main.973d75ad.js.map"
   },
   "entrypoints": [
     "static/css/main.72207587.css",
-    "static/js/main.d0388932.js"
+    "static/js/main.973d75ad.js"
   ]
 }
