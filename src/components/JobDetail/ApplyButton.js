@@ -1,4 +1,4 @@
-import styles from "./JobDetail.module.scss";
+import styles from "./JobDetail.module.css";
 
 export const ApplyButton = (
   <div className={styles.apply_button__wrapper}>

@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { IJobDetail } from '../../types/types'
 
-import styles from './JobDetail.module.scss'
+import styles from './JobDetail.module.css'
 
 import Top from './top-section/top';
 import General from './general-section/general';

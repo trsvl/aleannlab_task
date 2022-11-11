@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { IJobDetail } from '../../types/types'
 import PagesNavigation from './PagesNavigation.js'
-import general_styles from './JobList.module.scss'
+import general_styles from './JobList.module.css'
 import List from './list/list'
 
 interface JobListProps {

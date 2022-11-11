@@ -3,7 +3,7 @@ import { IJobDetail } from '../../../types/types'
 import Bookmark from '../../../utilities/Bookmark'
 import BookmarkStar from '../../../utilities/BookmarkStar'
 import Share from '../../../utilities/Share'
-import general_styles from './../JobDetail.module.scss'
+import general_styles from './../JobDetail.module.css'
 import styles from './style.module.css'
 
 interface TopProps {

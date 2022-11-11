@@ -1,4 +1,4 @@
-import styles from "./JobDetail.module.scss";
+import styles from "./JobDetail.module.css";
 import ArrowButton from "./../../images/left-arrow-button.svg";
 import { Link } from "react-router-dom";
 

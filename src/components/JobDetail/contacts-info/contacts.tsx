@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { IJobDetail } from "../../../types/types.js";
-import general_styles from "./../JobDetail.module.scss";
+import general_styles from "./../JobDetail.module.css";
 import styles from "./style.module.css";
 import Circle from "./../../../images/circle.svg";
 import Location from "./../../../images/location.svg";

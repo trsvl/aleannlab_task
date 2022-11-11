@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ReactComponent as BookmarkStarSVG } from "../images/bookmark-star.svg";
-import "./../components/JobDetail/JobDetail.module.scss";
+import "./../components/JobDetail/JobDetail.module.css";
 
 const Bookmark = (id) => {
   const [BookmarkState, setBookmarkState] = useState(false);

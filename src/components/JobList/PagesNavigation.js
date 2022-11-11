@@ -1,5 +1,5 @@
 import React, { FC, useEffect } from 'react'
-import styles from './JobList.module.scss'
+import styles from './JobList.module.css'
 import { ReactComponent as LeftArrow } from '../../images/left-arrow.svg'
 import { ReactComponent as RightArrow } from '../../images/right-arrow.svg'
 
