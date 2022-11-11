@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import JobDetail from './components/JobDetail/JobDetail';
 import JobList from './components/JobList/JobList';
 import { IJobDetail } from './types/types';
-import { Routes, Route, Link, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
   const apiUrl: string = 'https://api.json-generator.com/templates/ZM1r0eic3XEy/data';
@@ -46,10 +46,10 @@ function App() {
  <Routes>
  <Route path="*" element={<Navigate to={process.env.PUBLIC_URL + '/jobs'}/>} />
  <Route path={process.env.PUBLIC_URL + '/'} element={<Navigate to={process.env.PUBLIC_URL + '/jobs'} />} />
- <Route path={`${process.env.PUBLIC_URL}/jobs`} element={<JobList items={items} windowWidth={windowSize}/>}/>
+ <Route path={process.env.PUBLIC_URL + '/jobs'} element={<JobList items={items} windowWidth={windowSize}/>}/>
  {items.map((item) => {
    return (
-     <Route key={item.id} path={process.env.PUBLIC_URL + `/jobs/job-${item.id}`} element={
+     <Route key={item.id} path={process.env.PUBLIC_URL + `/job-${item.id}`} element={
        <JobDetail
          address={item.address}
          benefits={item.benefits}

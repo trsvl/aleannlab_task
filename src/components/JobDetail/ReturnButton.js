@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const ReturnButton = (
   <button className={styles.return_button}>
-    <Link to={`${process.env.PUBLIC_URL}/jobs`}>
+    <Link to={process.env.PUBLIC_URL + '/jobs'}>
       <img src={ArrowButton} />
       <h6 className={styles.return_button__text}>RETURN TO JOB BOARD</h6>
     </Link>

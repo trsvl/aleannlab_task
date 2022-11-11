@@ -67,11 +67,11 @@ h5 {
   @apply hidden py-4 pl-[23px]  pr-[26px] rounded-lg bg-[#384564]
   bg-opacity-[0.14]  mt-[97px]
   sm:flex sm:items-center text-center;
-
-  a {
+}
+  .return_button > a {
     @apply flex items-center;
   }
-}
+
 .return_button__text {
   @apply ml-[19px];
 }
